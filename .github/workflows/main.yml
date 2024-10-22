@@ -18,6 +18,6 @@ jobs:
       - name: Upload the archive
         uses: actions/upload-artifact@v3
         with:
-          name: ronaldo-sys-archive
+          name: ronaldo-artifacts
           path: ronaldo-sys*
 
